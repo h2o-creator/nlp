@@ -1,0 +1,9 @@
+$main-fonts: Helvetica, Roboto;
+$primary-color: rgb(53, 53, 53);
+$secondary-color: rgb(211, 211, 211);
+
+body {
+    margin: 50px;
+    font: 100% $main-fonts;
+    color: $primary-color;
+}
