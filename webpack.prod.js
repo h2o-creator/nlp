@@ -9,7 +9,6 @@ module.exports = {
         library: 'Client'
     },
     mode: 'production',
-    devtool: 'source-map',
     module: {
         rules: [
             {
