@@ -43,3 +43,5 @@ export default function handleSubmit(event) {
         resultElement.appendChild(docFrag)
     })
 }
+
+module.exports = handleSubmit;
