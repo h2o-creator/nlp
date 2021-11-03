@@ -1,6 +1,6 @@
 const path = require('path')
 const express = require('express')
-const dotenv = require('dotenv');
+const dotenv = require('dotenv')
 dotenv.config();
 
 const app = express()
@@ -15,3 +15,5 @@ app.listen(3000, () => {
 app.get('/', (req, res) => {
     res.sendFile('dist/index.html')
 })
+
+app.post('/')
