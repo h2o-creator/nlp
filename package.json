@@ -4,7 +4,8 @@
   "description": "Natural Language Processing using external API, JS, Node, Express, and build tools.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-dev": "webpack-dev-server --config webpack.dev.js --open"
   },
   "repository": {
     "type": "git",
@@ -28,6 +29,8 @@
     "@babel/core": "^7.16.0",
     "@babel/preset-env": "^7.16.0",
     "babel-loader": "^8.2.3",
-    "html-webpack-plugin": "^5.5.0"
+    "clean-webpack-plugin": "^4.0.0",
+    "html-webpack-plugin": "^5.5.0",
+    "webpack-dev-server": "^4.4.0"
   }
 }
