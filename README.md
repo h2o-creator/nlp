@@ -59,12 +59,14 @@ Enjoy!
     "css-loader": "^6.5.0",
     "css-minimizer-webpack-plugin": "^3.1.1",
     "html-webpack-plugin": "^5.5.0",
+    "jest": "^27.3.1",
     "mini-css-extract-plugin": "^2.4.3",
     "node-sass": "^6.0.1",
     "sass-loader": "^12.3.0",
     "style-loader": "^3.3.1",
     "terser-webpack-plugin": "^5.2.4",
-    "webpack-dev-server": "^4.4.0"
+    "webpack-dev-server": "^4.4.0",
+    "workbox-webpack-plugin": "^6.3.0"
   }
 ```
 
@@ -72,7 +74,7 @@ Enjoy!
 
 ```json
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "build-dev": "webpack-dev-server --config webpack.dev.js --open",
     "build-prod": "webpack --config webpack.prod.js",
     "start": "node ./src/server/server.js"
