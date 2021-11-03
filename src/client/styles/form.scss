@@ -1,9 +1,8 @@
 form {
-    input[type="text"] {
+    input {
         padding: 15px;
     }
     input[type="submit"] {
-        padding: 15px;
         &:hover {
             background-color: orange;
         }
