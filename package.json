@@ -1,0 +1,25 @@
+{
+  "name": "nlp",
+  "version": "1.0.0",
+  "description": "Natural Language Processing using external API, JS, Node, Express, and build tools.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/h2o-creator/nlp.git"
+  },
+  "keywords": [
+    "nlp"
+  ],
+  "author": "@h2o-creator",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/h2o-creator/nlp/issues"
+  },
+  "homepage": "https://github.com/h2o-creator/nlp#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
