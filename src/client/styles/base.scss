@@ -3,7 +3,8 @@ $primary-color: rgb(53, 53, 53);
 $secondary-color: rgb(211, 211, 211);
 
 body {
-    margin: 50px;
+    margin: 25px;
     font: 100% $main-fonts;
     color: $primary-color;
+    border: 1px solid black;
 }

@@ -1,0 +1,11 @@
+form {
+    input[type="text"] {
+        padding: 15px;
+    }
+    input[type="submit"] {
+        padding: 15px;
+        &:hover {
+            background-color: orange;
+        }
+    }
+}
