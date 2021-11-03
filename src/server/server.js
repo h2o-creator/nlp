@@ -15,5 +15,3 @@ app.listen(3000, () => {
 app.get('/', (req, res) => {
     res.sendFile('dist/index.html')
 })
-
-app.post('/')
