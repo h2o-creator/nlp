@@ -37,6 +37,8 @@ Now you can start the project:
 npm start
 ```
 
+Server should now run at https://localhost:3000
+
 Enjoy!
 
 ## Dependencies
