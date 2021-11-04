@@ -4,7 +4,7 @@ export default function handleSubmit(event) {
     event.preventDefault()
     const text = document.getElementById('text').value
     if (!validateData(text)) return alert('Invalid input text!')
-    fetch('/sentiment', {
+    fetch('http://localhost:3000/sentiment', {
         method: 'POST',
         credentials: 'same-origin',
         headers: {
